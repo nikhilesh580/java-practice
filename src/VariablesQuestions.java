@@ -42,7 +42,7 @@ public class VariablesQuestions {
         int x = 15;
         int y= 59;
 
-        System.out.println("sum:" +(a+b));
+        System.out.println("sum:" +(x+y));
 
         //print p-q
         int p = 12;
@@ -96,6 +96,127 @@ public class VariablesQuestions {
 
         mynum = 30;
         System.out.println("AFTER: " + mynum);
+
+
+        //level-2 start beginers
+
+        //DAY-2-------QUE.1 TO 15
+
+        //PRINT 3 VARIABLES SUM
+
+
+        int m1 = 21;
+        int m2 = 32;
+        int m3 = 42;
+
+
+        System.out.println("SUM: " +(m1+m2+m3));
+
+
+        //AVERAGE OF TWO NUMBERS
+
+        int n = 12;
+        int r = 23;
+         double avg = (n+ r)/8.5;
+
+        System.out.println("Average: " + avg);
+
+
+        // square of numbers
+
+        int W = 32;
+
+        int SQUARE = W*W ;
+
+        System.out.println("square: " + SQUARE);
+
+
+        //cube of numbers
+
+        int K = 981;
+
+        int cube = K*K*K;
+
+        System.out.println("CUBE:" + cube);
+
+
+        // AREA OF RECTANGLE
+
+        int length = 21;
+        int breadth = 43;
+
+        int area = length * breadth;
+        System.out.println("AREA OF RECTANGLE:" + area);
+
+
+        // AREA OF CIRCLE
+        int R = 23;
+
+        double pi = 3.14;
+
+        double areaofcircle = pi*R*R;
+        System.out.println("CIRCLE:" + areaofcircle);
+
+        // CELCIUS to FERANHITE
+
+        int celsius = 23;
+        double Fahrenheit = (celsius*9.0/5)+32;
+
+        System.out.println("FARANHEIT:" + Fahrenheit);
+
+        //SWAP TWO NUMBERS WITHOUT TEMP (tricky ques)
+
+        int M = 23;
+        int N = 54;
+
+        System.out.println("BEFORE SWAP: a = " + M + " , b =" + N);
+
+
+        M=M+N; // logic...
+        N=M-N;
+        M=M-N; //.....logic
+
+        System.out.println("AFTER SWAP: a = " + M + " , b =" + N);
+
+
+        //largest of 2 numbers
+
+        int H = 89;
+        int L = 88;
+        if (H>L){
+            System.out.println("h is greater");
+        } else if (H<L) {
+            System.out.println("L is greater");
+        } else{
+            System.out.println("both are equal");
+        }
+
+
+        // CHECK EVEN ODD
+
+        int MYNUM = 22;
+
+        if (MYNUM%2==0) {
+            System.out.println("even");
+
+        }else{
+            System.out.println(" ODD");
+        }
+
+        // ASCII OF CHARACTER (using typecasting)
+        char ch = 'A';
+         System.out.println((int) ch); // one type change another type
+
+         int in = 98;
+         System.out.println((char) in); // one type change another type
+
+
+
+
+
+
+
+
 
 
 
