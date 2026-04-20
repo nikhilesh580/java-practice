@@ -210,6 +210,25 @@ public class VariablesQuestions {
          int in = 98;
          System.out.println((char) in); // one type change another type
 
+        // int convert to double
+
+        int e=23;
+        System.out.println((double) e);
+
+        //double to int
+
+        double d = 3.3;
+        System.out.println((int) d);
+
+        //boolean check
+
+        boolean isteacher = true;
+
+        if (isteacher) {
+            System.out.println("true");
+        } else{
+            System.out.println("false");
+        }
 
 
 
