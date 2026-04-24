@@ -1,6 +1,6 @@
 public class VariablesQuestions {
 
-    public static void main (String[] args){
+    public static void main (String[] args) {
 
         //LEVEL 1 VARIABLES QUESTION (1 TO 15)
 
@@ -8,21 +8,21 @@ public class VariablesQuestions {
 
 
         int num = 10;
-        System.out.println("print num:" + num );
+        System.out.println("print num:" + num);
 
         double num2 = 5.5;
         System.out.println("print num2:" + num2);
 
-        char grade ='A';
-        System.out.println("print grade:" +grade);
+        char grade = 'A';
+        System.out.println("print grade:" + grade);
 
-         String name = "Nikhildon";
-         System.out.println("my name is:" + name);
+        String name = "Nikhildon";
+        System.out.println("my name is:" + name);
 
-         boolean isStudent = true;
-         System.out.println("mai hu yaa nhi:" + isStudent);
+        boolean isStudent = true;
+        System.out.println("mai hu yaa nhi:" + isStudent);
 
-         //make two variable then print
+        //make two variable then print
 
         char myvar1 = 78;
         char myvar2 = 82;
@@ -40,28 +40,28 @@ public class VariablesQuestions {
 
         //print x+y
         int x = 15;
-        int y= 59;
+        int y = 59;
 
-        System.out.println("sum:" +(x+y));
+        System.out.println("sum:" + (x + y));
 
         //print p-q
         int p = 12;
         int q = 23;
 
-        System.out.println("minus:" + (p-q));
+        System.out.println("minus:" + (p - q));
 
         //print A*B
-        int A=89;
-        int B=6589;
+        int A = 89;
+        int B = 6589;
 
-        System.out.println("multiply:" + (A*B));
+        System.out.println("multiply:" + (A * B));
 
         //PRINT Y/Z
 
         int Y = 98;
         int Z = 2;
 
-        System.out.println("divide:" + (Y/Z));
+        System.out.println("divide:" + (Y / Z));
 
         // PUT DECIMAL IN INT
 
@@ -70,13 +70,12 @@ public class VariablesQuestions {
         System.out.println(decimal);*/
 
 
-
         // Add string + string
 
         String firstname = "Nikhil";
-        String lastName= "tripathi";
+        String lastName = "tripathi";
 
-        String fullName = firstname+ " " + lastName;
+        String fullName = firstname + " " + lastName;
 
         System.out.println(fullName);
 
@@ -92,7 +91,7 @@ public class VariablesQuestions {
         //one variable change value
 
         int mynum = 10;
-        System.out.println("BEFORE: "+ mynum);
+        System.out.println("BEFORE: " + mynum);
 
         mynum = 30;
         System.out.println("AFTER: " + mynum);
@@ -110,14 +109,14 @@ public class VariablesQuestions {
         int m3 = 42;
 
 
-        System.out.println("SUM: " +(m1+m2+m3));
+        System.out.println("SUM: " + (m1 + m2 + m3));
 
 
         //AVERAGE OF TWO NUMBERS
 
         int n = 12;
         int r = 23;
-         double avg = (n+ r)/8.5;
+        double avg = (n + r) / 8.5;
 
         System.out.println("Average: " + avg);
 
@@ -126,7 +125,7 @@ public class VariablesQuestions {
 
         int W = 32;
 
-        int SQUARE = W*W ;
+        int SQUARE = W * W;
 
         System.out.println("square: " + SQUARE);
 
@@ -135,7 +134,7 @@ public class VariablesQuestions {
 
         int K = 981;
 
-        int cube = K*K*K;
+        int cube = K * K * K;
 
         System.out.println("CUBE:" + cube);
 
@@ -154,13 +153,13 @@ public class VariablesQuestions {
 
         double pi = 3.14;
 
-        double areaofcircle = pi*R*R;
+        double areaofcircle = pi * R * R;
         System.out.println("CIRCLE:" + areaofcircle);
 
         // CELCIUS to FERANHITE
 
         int celsius = 23;
-        double Fahrenheit = (celsius*9.0/5)+32;
+        double Fahrenheit = (celsius * 9.0 / 5) + 32;
 
         System.out.println("FARANHEIT:" + Fahrenheit);
 
@@ -172,9 +171,9 @@ public class VariablesQuestions {
         System.out.println("BEFORE SWAP: a = " + M + " , b =" + N);
 
 
-        M=M+N; // logic...
-        N=M-N;
-        M=M-N; //.....logic
+        M = M + N; // logic...
+        N = M - N;
+        M = M - N; //.....logic
 
         System.out.println("AFTER SWAP: a = " + M + " , b =" + N);
 
@@ -183,11 +182,11 @@ public class VariablesQuestions {
 
         int H = 89;
         int L = 88;
-        if (H>L){
+        if (H > L) {
             System.out.println("h is greater");
-        } else if (H<L) {
+        } else if (H < L) {
             System.out.println("L is greater");
-        } else{
+        } else {
             System.out.println("both are equal");
         }
 
@@ -196,23 +195,23 @@ public class VariablesQuestions {
 
         int MYNUM = 22;
 
-        if (MYNUM%2==0) {
+        if (MYNUM % 2 == 0) {
             System.out.println("even");
 
-        }else{
+        } else {
             System.out.println(" ODD");
         }
 
         // ASCII OF CHARACTER (using typecasting)
         char ch = 'A';
-         System.out.println((int) ch); // one type change another type
+        System.out.println((int) ch); // one type change another type
 
-         int in = 98;
-         System.out.println((char) in); // one type change another type
+        int in = 98;
+        System.out.println((char) in); // one type change another type
 
         // int convert to double
 
-        int e=23;
+        int e = 23;
         System.out.println((double) e);
 
         //double to int
@@ -226,11 +225,48 @@ public class VariablesQuestions {
 
         if (isteacher) {
             System.out.println("true");
-        } else{
+        } else {
             System.out.println("false");
+
         }
 
 
+        //level 3 variables
+
+        // 3 number ka max
+        int l1 = 34;
+        int l2 = 43;
+        int l3 = 65;
+
+        if (l1 > l2 && l1 > l3) {
+            System.out.println("a is biggest");
+        } else if (l2 > l1 && l2>l3) {
+            System.out.println("b is biggest");
+        } else {
+            System.out.println("c is biggest");
+        }
+
+        // simple intrest
+
+        int p1 = 32;
+        int r2 = 54;
+        int t3 = 32;
+
+        int si = (p1*r2*t3)/100;
+        System.out.println("simple intrest: " + si);
+
+        // percent calculate
+         int math = 92;
+         double english = 33.3;
+         int java = 98;
+
+         double total = math + english + java;
+         Double percentage = total/3.0;
+         System.out.println("Total: " + total);
+         System.out.println("Percentage: " + percentage);
+
+
+         // pass/fail
 
 
 
@@ -238,7 +274,7 @@ public class VariablesQuestions {
 
 
 
-
+        }
 
     }
-}
+
