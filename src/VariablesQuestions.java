@@ -267,6 +267,51 @@ public class VariablesQuestions {
 
 
          // pass/fail
+        int marks=35;
+        if(marks>=33) {
+            System.out.println("print pass");
+        } else{
+            System.out.println("print fail");
+        }
+
+        //salary and bonus
+        double salary = 1000.0;
+         int bonus = 200;
+         double Total = salary + bonus ;
+         System.out.println("total salary: " + Total);
+
+
+         // discount calculate
+        int price = 500;
+        int discount =10;
+        double finalprice = price -(price * discount /100);
+        System.out.println("final discount:" + finalprice);
+
+        //km to m
+        int km =20;
+        int metre = km *1000;
+        System.out.println("print km to m: " + metre );
+
+        // covert second to minute
+        int second=120;
+        double time = second/60.0;
+        System.out.println("second to minute:"+ time);
+
+        // reverse number
+        int Num = 123;
+        int rev = 0;
+
+        while (Num>0){
+            int digit = Num%10;
+            rev = rev*10+digit;
+            Num = Num/10;
+
+            System.out.println("Reverse:" + rev );
+
+
+        }
+
+
 
 
 
