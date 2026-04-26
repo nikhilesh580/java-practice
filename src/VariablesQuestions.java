@@ -7,7 +7,7 @@ public class VariablesQuestions {
         //DAY ---01
 
 
-        int num = 10;
+       int num = 10;
         System.out.println("print num:" + num);
 
         double num2 = 5.5;
@@ -297,17 +297,14 @@ public class VariablesQuestions {
         double time = second/60.0;
         System.out.println("second to minute:"+ time);
 
-        // reverse number
-        int Num = 123;
-        int rev = 0;
 
-        while (Num>0){
-            int digit = Num%10;
-            rev = rev*10+digit;
-            Num = Num/10;
 
-            System.out.println("Reverse:" + rev );
 
+
+
+
+
+           }
 
         }
 
@@ -319,7 +316,7 @@ public class VariablesQuestions {
 
 
 
-        }
 
-    }
+
+
 
