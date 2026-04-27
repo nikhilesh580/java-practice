@@ -14,5 +14,13 @@ public class CWN_02_LITERALS {
              String str = "nikhil";
              System.out.println(str);
 
+             // avg of two numbers
+             int num1=20;
+             int num2= 30;
+            int  avg = num1+num2/2;
+            System.out.println("print average:" + avg);
+
     }
 }
+
+

@@ -297,6 +297,12 @@ public class VariablesQuestions {
         double time = second/60.0;
         System.out.println("second to minute:"+ time);
 
+        // area of triangle
+     int B8= 20;
+     int h= 40;
+     area = B8*h/2;
+     System.out.println("print area of triangle :" + area);
+
 
 
 
