@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class practiceset_02 {
+public class CWN_08_PRACTICE2 {
     public static void main(String []args){
         Scanner sc = new Scanner (System.in);
 //        System.out.println("Enter first number is:");
@@ -173,6 +173,9 @@ public class practiceset_02 {
 //        System.out.println("RESULT:" + result);
 //        System.out.println("final value of a:" + a);
 //        System.out.println("Final value of b:" + b);
+
+
+
 
     }
 

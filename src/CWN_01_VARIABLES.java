@@ -1,4 +1,4 @@
-public class VariablesQuestions {
+public class CWN_01_VARIABLES {
 
     public static void main (String[] args) {
 

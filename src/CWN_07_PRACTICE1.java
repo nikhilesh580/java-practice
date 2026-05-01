@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Practiceset1 {
+public class CWN_07_PRACTICE1 {
     public static void main(String[] args){
 
         //Q.1 Percentage of student in 5 subject
